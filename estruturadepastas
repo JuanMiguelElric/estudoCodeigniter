@@ -1,0 +1,57 @@
+cache = Diretório que armazena os arquivos que são colocados
+em cache
+
+
+config		─	Diretório	que	armazena	os	arquivos	de
+ configuração	
+do	
+CI,	
+como	
+por	
+exemplo,
+ database.php	,		constants.php	,		routes.php	,
+ entre	outros	que	veremos	no	decorrer	dos	capítulos.
+ controllers		─	Diretório	que	armazena	os	arquivos
+ com	os	controllers	do	projeto.	Ao	instalar	o	CI,	ele	já
+ vem	com	um	controller	criado,	que	é	o		Welcome.php	.
+ core		
+─	Diretório	usado	para	estender	classes	e
+ funcionalidades	do	core	do	CI,	adaptando-se	às
+ 6	
+1.3	ESTRUTURA	DE	ARQUIVOS	E	DIRETÓRIOS	DO	CODEIGNITER
+necessidades	do	projeto.
+ helpers		─	Diretório	que	armazena	os	arquivos	com
+ funções	que	funcionarão	como	assistentes	durante	o
+ desenvolvimento.	Por	exemplo,	você	pode	criar	um
+ helper	(assistente)	para	determinado	grupo	de	tarefas
+ realizadas	com	frequência	dentro	do	projeto,	ou	então
+ estender	as	funcionalidades	dos	helpers	nativos	do	CI.
+ hooks		─	Diretório	que	armazena	os	arquivos	que
+ também	estendem	funcionalidades	padrão	do	CI.	Você
+ pode	criar	um	hook	para	alterar	uma	funcionalidade
+ padrão,	como	por	exemplo,	minificar	o	código	HTML
+ de	saída	quando	o	método		load->view()		for
+ executado.
+ language		─	Diretório	que	armazena	os	arquivos	com
+ os	dicionários	de	idiomas,	assim	você	pode	desenvolver
+ projetos	multi-idiomas	de	forma	fácil,	e	também
+ utilizar	os	outros	idiomas	dos	pacotes	de	tradução
+ oficiais	do	CI,	que	podem	ser	encontrados	em
+ https://github.com/bcit-ci/codeigniter3-translations.
+ libraries		─	Diretório	que	armazena	as	libraries
+ (bibliotecas)	criadas	para	o	projeto,	ou	libraries
+ estendidas	do	core	do	CI.
+ logs		─	Diretório	que	armazena	os	arquivos	de	log,
+ que	
+são	
+configurados	
+application/config/config.php	.
+ em
+ models		─	Diretório	que	armazena	os	arquivos	onde
+ ficarão	as	regras	de	negócio	do	projeto.
+ third_party		─	Diretório	que	armazena	código	de
+ terceiros,	como	classes	que	podem	auxiliar	em	alguma
+
+
+
+ 
