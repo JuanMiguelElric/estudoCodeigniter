@@ -1,0 +1,15 @@
+Toda classe no ci precisa ser estendidada da classe precisa ser estendida da classe precisa
+CI_Model, e ter o método __construct() instanciado para poder herdar as funcionalidades da classe pai.
+Também precisa ter a primeira letra do nome maiusculo e o nome do arquivo ser igual ao nome da classe.
+
+
+como se carrega o model ?
+
+$this->load->mode('nome_do_model.),
+
+
+pode ser que em algum momento dentro da minha aplicação eu vou ter um model que vai ser utilizado em vário constrollers. 
+
+preciso adicionar no autoload da seguinte forma
+
+$autoload['model'] = array ('nome_do_mode'=> novo_nome_do_model);
