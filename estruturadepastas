@@ -54,4 +54,8 @@ application/config/config.php	.
 
 
 
- 
+ Diretório System, é o Diretório onde mantem o CodeIgniter atualizado, na maioria das versões basta substituir
+ o conteúdo desse Diretório pelo conteúdo do mesmo diretório na versão mais recente.
+
+Assim como em todas aplicações desenvolvidas em php, o index.php carrega o arquivo core necessário para a cardas das 
+libraries, helpers, classes.
