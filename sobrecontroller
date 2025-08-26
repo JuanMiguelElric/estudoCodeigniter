@@ -1,0 +1,111 @@
+
+EXEMPLOE DE COMO É UM CONTROLLER
+<
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+class Example extends CI_Controller{
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Example_model');
+        $this->load->library('form_validation');
+
+        
+    }
+
+    function index(){
+        $this->load->view('home');
+    }
+
+
+    
+}
+
+
+
+
+url = https:www.doma.in/login.
+
+adiciona o método login() do controller e é associada a ele pela rota $route['login'];
+
+
+todo controller no CI deve ter o mesmo nome, tanto no arquivo quanto no nome da classe, e começar com a primeira letra maiúscula
+
+
+usando paramento 
+
+$this->uri->segment(3);
+
+o paramento 3 passado para método determina que deve ser recuperado o valor do terceiro segmento da URL.
+
+
+
+O	CodeIgniter	possui	uma	lista	de	nomes	reservados	que	não
+ podem	ser	utilizados	em	controllers	e	métodos.	Veja	essa	lista	a
+ seguir:
+ Controllers
+ Funções
+ CI_Controller	
+Default	
+index	
+is_php()	
+is_really_writable()	
+load_class()	
+is_loaded()	
+get_config()	
+config_item()	
+18	
+3.2	NOMES	RESERVADOS
+	show_error()	
+	show_404()	
+	log_message()	
+	set_status_header()	
+	get_mimes()	
+	html_escape()	
+	remove_invisible_characters()	
+	is_https()	
+	function_usable()	
+	get_instance()	
+	_error_handler()	
+	_exception_handler()	
+	_stringify_attributes()	
+$config
+ $db
+ $lang
+	ENVIRONMENT	
+	FCPATH	
+	SELF	
+	BASEPATH	
+	APPPATH	
+	VIEWPATH	
+	CI_VERSION	
+	MB_ENABLED	
+	ICONV_ENABLED	
+	UTF8_ENABLED	
+	FILE_READ_MODE	
+	FILE_WRITE_MODE	
+Variáveis
+ Constantes
+ 3.2	NOMES	RESERVADOS	19
+DIR_READ_MODE	
+DIR_WRITE_MODE	
+FOPEN_READ	
+FOPEN_READ_WRITE	
+FOPEN_WRITE_CREATE_DESTRUCTIVE	
+FOPEN_READ_WRITE_CREATE_DESTRUCTIVE	
+FOPEN_WRITE_CREATE	
+FOPEN_READ_WRITE_CREATE	
+FOPEN_WRITE_CREATE_STRICT	
+FOPEN_READ_WRITE_CREATE_STRICT	
+SHOW_DEBUG_BACKTRACE	
+EXIT_SUCCESS	
+EXIT_ERROR	
+EXIT_CONFIG	
+EXIT_UNKNOWN_FILE	
+EXIT_UNKNOWN_CLASS	
+EXIT_UNKNOWN_METHOD	
+EXIT_USER_INPUT	
+EXIT_DATABASE	
+EXIT__AUTO_MIN	
+EXIT__AUTO_MAX
